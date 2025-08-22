@@ -6,10 +6,9 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = "src/test/resources/features/download_pdf.feature", // asegúrate del path
+        features = "src/test/resources/features/download_pdf.feature",
         glue = "co.com.banistmo.prohibition.stepdefinitions",
         plugin = {"pretty"},
-        snippets = CucumberOptions.SnippetType.CAMELCASE,  // ← SnippetType actualizado
-        monochrome = true
+        snippets = CucumberOptions.SnippetType.CAMELCASE // ← SnippetType actualizado
 )
 public class ProhibitionPdf {}

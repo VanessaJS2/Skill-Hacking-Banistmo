@@ -20,6 +20,7 @@ public class ValidarPdf implements Question<String> {
     public String answeredBy(Actor actor) {
         try {
             String url = BrowseTheWeb.as(actor).getDriver().getCurrentUrl();
+           // System.out.println(url );
             if (url == null) return "";
             try (var in = new URL(url).openStream();
                  var doc = PDDocument.load(in)) {

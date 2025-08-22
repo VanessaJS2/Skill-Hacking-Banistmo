@@ -1,6 +1,7 @@
 plugins {
     id 'java'
-    id 'net.serenity-bdd.serenity-gradle-plugin'
+    id 'net.serenity-bdd.serenity-gradle-plugin' version '4.2.34'
+
 }
 
 group = 'org.example'
@@ -12,6 +13,7 @@ ext {
     serenityVersion = '4.2.34'
 }
 
+
 dependencies {
     implementation "net.serenity-bdd:serenity-core:$serenityVersion"
     implementation "net.serenity-bdd:serenity-screenplay:$serenityVersion"
@@ -20,6 +22,8 @@ dependencies {
     testImplementation "net.serenity-bdd:serenity-junit5:$serenityVersion"
     testImplementation "net.serenity-bdd:serenity-cucumber:$serenityVersion"
     testImplementation "io.github.bonigarcia:webdrivermanager:5.9.2"
+
+
 }
 
 test { useJUnitPlatform() }
