@@ -9,11 +9,11 @@ Suite de pruebas UI para navegar en Banistmo (Personas → Préstamos de Auto �
 
 ## Git - comandos útiles
 
-git status
-git add .
-git commit -m "#####"
-git push
-git branch -M main              
-git push -u origin main
+- ** status
+- **git add .
+- **git commit -m "#####"
+- **git push
+- **git branch -M main              
+- **git push -u origin main
 
 
