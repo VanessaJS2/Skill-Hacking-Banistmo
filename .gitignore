@@ -1,0 +1,13 @@
+.gradle/
+build/
+out/
+target/
+target/site/
+target/serenity/
+build/reports/
+build/serenity/
+target/downloads/
+.idea/
+*.iml
+.vscode/
+
